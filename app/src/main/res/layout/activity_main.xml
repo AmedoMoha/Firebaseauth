@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/EdtLO_gmail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:layout_marginTop="30sp"
+       android:layout_marginRight="20sp"
+       android:layout_marginLeft="20sp"
+       android:minHeight="30sp"
+       android:hint="Enter Email Address"
+       android:textSize="30sp"
+       android:textColorHint="#B215D4"
+       android:inputType="textEmailAddress"
+       tools:layout_editor_absoluteX='97dp'
+       tools:layout_editor_absoluteY='134dp' />
+
+    <EditText
+        android:id="@+id/Edtlogpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="80sp"
+        android:layout_marginBottom="40sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:hint="Enter Password"
+        android:textSize="30sp"
+        android:textColorHint="#B215D4"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="LOGIN"
+        android:textSize="35sp"
+        android:textColor="#DDAF24"
+        android:backgroundTint="#CF1313"
+        app:iconTint="#21BC2B" />
+
+    <TextView
+        android:id="@+id/TvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Dont have an account! Click to Register"
+        />
+
+</LinearLayout>
